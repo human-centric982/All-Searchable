@@ -162,7 +162,7 @@ python train.py --cfg experiments/mpii/256x256_18l_64c.yaml
 
 #### Testing on COCO val2017 dataset
 
-#####Testing on COCO dataset  using  our [pretrained model](https://drive.google.com/drive/folders/1Ydy7JXn1AAvx7av2Sc2CMl7ijJrOIWxW?usp=sharing).
+##### Testing on COCO dataset  using  our [pretrained model](https://drive.google.com/drive/folders/1Ydy7JXn1AAvx7av2Sc2CMl7ijJrOIWxW?usp=sharing).
 
 ```
 python test.py --cfg experiments/coco/256x192_18l_64c.yaml --test_weight "path/to/your/weight"
@@ -183,7 +183,7 @@ This repo is largely modified from [DARTS](https://github.com/quark0/darts), [Hr
 @InProceedings{AllSearchable,
   author = {Anonymous CVPR submission: Paper ID 5697},
   title = {All-Searchable: Full Neural Architecture Search for Human Pose Estimation},
-  booktitle = {Submit to The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  booktitle = {Submitted to the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   year = {2020}
 }
 
