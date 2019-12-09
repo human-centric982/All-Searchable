@@ -48,6 +48,12 @@ In this project, we support three different structures (AutoPose-L12-C32, AutoPo
 - Person detector has person AP of 56.4 on COCO val2017 dataset.
 - GFLOPs is for convolution and linear layers only.
 
+
+## Code description
+- Currently we release our searched network model and the training code. 
+- The search code will be released soon. 
+
+
 ## Quick start
 ### Installation
 1. Install pytorch >= v1.0.0 following [official instruction](https://pytorch.org/).
