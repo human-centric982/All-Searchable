@@ -1,7 +1,9 @@
 # All-Searchable: Full Neural Architecture Search for Human Pose Estimation
 
 ## Introduction
-This is an official pytorch implementation of <u>*All-Searchable: Full Neural Architecture Search for Human Pose Estimation*.</u> Our work focuses on the Neural Architecture Search (NAS)  for human pose estimation. Different from the existed NAS-based works in classification and detection only search a task-specific module, in this paper, we propose a full neural architecture search with different computation cells to pursue an effective and efficient model.  Our architecture search includes the search for a backbone and a pose decoder. Firstly, we search for a light-weight pose estimation backbone with stacked normal cells and reduction cells, which can provide an optimum feature extractor for the pose specific task. Meanwhile, we design a context-aware search space with diverse scale-adaptive fusion cells to enhance the multi-scale information exchange and feature refinement in the pose decoder. In particular, the two spaces are jointly searched to guarantee global optimization. Our designed network is implemented in Differentiable Architecture Search (DARTS), and searched with two days for COCO on four P40 GPUs. The proposed method achieves state-of-the-art performance on three public datasets, MPII, COCO, and PoseTrack. </br>
+This is an official pytorch implementation of <u>*All-Searchable: Full Neural Architecture Search for Human Pose Estimation*.</u> Our work focuses on the Neural Architecture Search (NAS)  for human pose estimation. 
+
+The proposed method achieves state-of-the-art performance on three public datasets, MPII, COCO, and PoseTrack. </br>
 
 ## Architecture Description
 In this project, we support three different structures (AutoPose-L12-C32, AutoPose-L18-C48, AutoPose-L18-C64), 'L' and 'C' stand for the number of the cells and the number of the initial channels of the network, you can change them in the Configuration files (config.TRAIN.LAYERS and config.TRAIN.INIT_CHANNELS). 
